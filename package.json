@@ -1,6 +1,6 @@
 {
   "name": "kanban_board_project",
-  "homepage": "https://github.com/emilio1195/React/tree/main/kanban_board_project",
+  "homepage": "https://github.com/emilio1195/kanban_board_project.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
