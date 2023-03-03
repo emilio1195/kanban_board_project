@@ -1,0 +1,118 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.content{
+  min-height: 100vh;
+  padding: 0;
+  background: #003a75;
+  background: radial-gradient(circle, rgba(17,27,66,1) 53%, rgb(0, 58, 117) 100%);
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0px 30px 30px 30px;
+  width: fit-content;
+  min-height: 100vh;
+  background-color: #c7c7c7;
+}
+
+.dashboard > .nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 20px 0;
+}
+.dashboard > .nav > .nav_title {
+  width: 20%;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #202020;
+  margin-left: 30px;
+}
+.dashboard>.nav>.nav_avatars {
+  width: 80%;
+  margin-right: 30px;
+}
+.dashboard> .nav > AvatarGroup {
+  align-self: flex-end;
+}
+.column_card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  height: fit-content;
+  background-color: #f0eeee;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+}
+.card_Header{
+  width: 100%;
+  text-align: left;
+  padding: 15px 0;
+  border-bottom: 1px solid #bdbbbb;
+}
+.card_title{
+  margin: 15px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #181818;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+}
+
+.task_card{
+  -webkit-box-shadow: 0px 0px 5px 0px rgb(68, 67, 67);
+  -moz-box-shadow: 0px 0px 5px 0px rgb(68, 67, 67);
+  box-shadow: 0px 0px 5px 0px rgb(68, 67, 67);
+}
+
+@media only screen and (min-height: 500px) and (max-height: 800px) {
+  .column_content {
+    max-height: 600px;
+  }
+}
+@media only screen and (min-height: 900px) and (max-height: 1200px) {
+  .column_content {
+    max-height: 800px;
+  }
+}
+
+@media only screen and (min-height: 1200px) {
+  .column_content {
+    max-height: 1100px;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(100, 100, 100);
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(29, 29, 29);
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 3px solid rgb(78, 78, 78);
+  /* creates padding around scroll thumb */
+}
