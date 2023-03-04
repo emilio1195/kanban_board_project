@@ -1,6 +1,6 @@
 {
   "name": "kanban_board_project",
-  "homepage": "https://github.com/emilio1195/kanban_board_project.git",
+  "homepage": "https://emilio1195.github.io/kanban_board_project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo 'projects-eb.site' > './build/'",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
