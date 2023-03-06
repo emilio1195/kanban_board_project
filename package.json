@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build && echo 'projects-eb.site' > './build/'",
+    "predeploy": "npm run build && echo projects-eb.site > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
